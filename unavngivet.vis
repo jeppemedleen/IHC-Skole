@@ -308,8 +308,8 @@
                   note CDATA ""
                   udf CDATA "">
 ]>
-<utcs_project version_major="4" version_minor="0" id1="_0x70b1b33" id2="_0xe0e0a22" last_unique_id="_0xe54">
-   <modified year="2021" month="1" day="14" hour="14" minute="10"/>
+<utcs_project version_major="4" version_minor="0" id1="_0x70b1b33" id2="_0xe0e391c" last_unique_id="_0xeae">
+   <modified year="2021" month="1" day="14" hour="14" minute="57"/>
    <customer_info/>
    <installer_info/>
    <project_info programmer="Jeppe"/>
@@ -362,14 +362,13 @@
       <group id="_0x2132" name="Stue" icon="_0x15">
          <functionblock id="_0x5c428" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x5c523" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x5c611" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x5c611" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0xe662c" name="Følg Link" icon="_0x4a" link="_0xe652d"/>
+               </resource_input>
                <resource_input id="_0x5c711" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x5c811" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x5c911" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)">
-                  <link_to_resource id="_0xe312c" name="Følg Link" icon="_0x4a" link="_0xe302d"/>
-               </resource_input>
+               <resource_input id="_0x5c911" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x5ca11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
-                  <link_to_resource id="_0xe332c" name="Følg Link" icon="_0x4a" link="_0xe322d"/>
                   <link_to_resource id="_0xe442c" name="Følg Link" icon="_0x4a" link="_0xe432d"/>
                </resource_input>
             </inputs>
@@ -516,10 +515,12 @@
             <inputs id="_0xc0c23" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
                <resource_input id="_0xc0d11" name="Touch " icon="_0x36" note="Kort tryk tænd /sluk - langt tryk regulerer lys niveau op/ned &#xD;&#xA;(Udfyldes af installatøren)&#xD;&#xA;"/>
                <resource_input id="_0xc0e11" name="Tænd/regulér op" icon="_0x36" note="Kort tryk tænd - langt tryk regulerer lysniveau op&#xD;&#xA;(Udfyldes af installatøren)&#xD;&#xA;">
-                  <link_to_resource id="_0xe282c" name="Følg Link" icon="_0x4a" link="_0xe272d"/>
+                  <link_to_resource id="_0xe5a2c" name="Følg Link" icon="_0x4a" link="_0xe592d"/>
                </resource_input>
                <resource_input id="_0xc0f11" name="Sluk/regulér ned  " icon="_0x36" note="Kort tryk sluk - langt tryk regulerer lysniveau ned&#xD;&#xA;(Udfyldes af installatøren)&#xD;&#xA;">
                   <link_to_resource id="_0xe2a2c" name="Følg Link" icon="_0x4a" link="_0xe292d"/>
+                  <link_to_resource id="_0xe5f2c" name="Følg Link" icon="_0x4a" link="_0xe5e2d"/>
+                  <link_to_resource id="_0xe642c" name="Følg Link" icon="_0x4a" link="_0xe632d"/>
                </resource_input>
                <resource_input id="_0xc1011" name="Høj" icon="_0x36" note="Fremkalder højt lysniveau.&#xD;&#xA;Tryk over 3 sek. vil gemme det aktuelle lysniveau som høj.&#xD;&#xA;Som kvittering blinker udgang samt diode i frontplade.&#xD;&#xA;Niveau gemmes kun, hvis lysdæmper er tændt.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0xc1111" name="Lav " icon="_0x36" note="Fremkalder lavt lysniveau.&#xD;&#xA;Tryk over 3 sek. vil gemme det aktuelle lysniveau som lav.&#xD;&#xA;Som kvittering blinker udgang samt diode i frontplade.&#xD;&#xA;Niveau gemmes kun, hvis lysdæmper er tændt.&#xD;&#xA;(Udfyldes af installatøren)"/>
@@ -532,13 +533,17 @@
                <resource_output id="_0xc1512" name="Sluk/regulér ned" icon="_0x39" note="Forbindes til klemme 2 på 400 UNI IHC/SA.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion.">
                   <link_from_resource id="_0xe202d" name="Følg Link" icon="_0x47" link="_0xe212c"/>
                </resource_output>
-               <resource_output id="_0xc1612" name="Lavt niveau - Memory 1" icon="_0x39" note="Forbindes til klemme 3 på UNI Dimmer 400.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion."/>
-               <resource_output id="_0xc1712" name="Højt niveau - Memory 2" icon="_0x39" note="Forbindes til klemme 4 på 400 UNI IHC/SA.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion."/>
+               <resource_output id="_0xc1612" name="Lavt niveau - Memory 1" icon="_0x39" note="Forbindes til klemme 3 på UNI Dimmer 400.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion.">
+                  <link_from_resource id="_0xe552d" name="Følg Link" icon="_0x47" link="_0xe562c"/>
+               </resource_output>
+               <resource_output id="_0xc1712" name="Højt niveau - Memory 2" icon="_0x39" note="Forbindes til klemme 4 på 400 UNI IHC/SA.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion.">
+                  <link_from_resource id="_0xe572d" name="Følg Link" icon="_0x47" link="_0xe582c"/>
+               </resource_output>
                <resource_enum id="_0xc180f" name="Lysdæmper status" typedef="_0xa0147" inivalue="_0xa0348" backup="yes" icon="_0x22" note="Status indikering til Viewer."/>
                <resource_output id="_0xc1912" name="Lysdæmper tændt" backup="yes" icon="_0x39" note="Status indikering i diode eller Viewer."/>
             </outputs>
             <settings id="_0xc1a25" name="Indstillinger" icon="_0xd" note="Variablene i denne gruppering er indstillinger til funktionsblokken">
-               <resource_enum id="_0xc1b0f" name="Kort reguleringstryk tænder" typedef="_0xa0b47" inivalue="_0xa0c48" backup="yes" icon="_0x22" note="Her er det muligt, at vælge funktionalitet på reguleringstryk dag/aften.&#xD;&#xA;Vælg mellem:&#xD;&#xA;&#xD;&#xA;Højt niveau&#xD;&#xA;Lavt niveau&#xD;&#xA;Sidste niveau" note-2="Dette valg er kun aktivt dag/aften. Om natten (natdrift anvendt) vil et kort reguleringstryk tænde lys på lavt niveau.&#xD;&#xA;Ved frafald af &quot;Natdrift&quot; vil &quot;Højt niveau&quot; fremkaldes første gang der trykkes kort reguleringstryk selvom &quot;Sidste niveau&quot; er valgt. Dette er valgt fordi ny dag er kommet og gl. niveau ikke er relevant mere. "/>
+               <resource_enum id="_0xc1b0f" name="Kort reguleringstryk tænder" typedef="_0xa0b47" inivalue="_0xa0d48" backup="yes" icon="_0x22" note="Her er det muligt, at vælge funktionalitet på reguleringstryk dag/aften.&#xD;&#xA;Vælg mellem:&#xD;&#xA;&#xD;&#xA;Højt niveau&#xD;&#xA;Lavt niveau&#xD;&#xA;Sidste niveau" note-2="Dette valg er kun aktivt dag/aften. Om natten (natdrift anvendt) vil et kort reguleringstryk tænde lys på lavt niveau.&#xD;&#xA;Ved frafald af &quot;Natdrift&quot; vil &quot;Højt niveau&quot; fremkaldes første gang der trykkes kort reguleringstryk selvom &quot;Sidste niveau&quot; er valgt. Dette er valgt fordi ny dag er kommet og gl. niveau ikke er relevant mere. "/>
             </settings>
             <internalsettings id="_0xc1c29" name="Interne variable" icon="_0x13" note="Variablene i denne gruppe er private variable til funktionsblokken">
                <resource_timer id="_0xc1d10" name="Kvittéring for gemt scenarie " icon="_0x43" hour="0" minute="0" second="3" millisecond="0"/>
@@ -1189,19 +1194,19 @@
                </program_simple>
             </programs>
          </functionblock>
-         <product_dataline id="_0xe2253" product_identifier="_0x2102" name="LK FUGA Tryk 4 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 4 SL" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
-            <dataline_input id="_0xe235a" name="Tryk (øverst venstre)" address_dataline="_0x1b">
-               <link_from_resource id="_0xe272d" name="Følg Link" icon="_0x47" link="_0xe282c"/>
+         <product_dataline id="_0xe5b53" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Ved dør" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="9">
+            <dataline_input id="_0xe5c5a" name="Tryk (venstre)" address_dataline="_0x13" cable_colour="Gul">
+               <link_from_resource id="_0xe592d" name="Følg Link" icon="_0x47" link="_0xe5a2c"/>
             </dataline_input>
-            <dataline_input id="_0xe245a" name="Tryk (øverst højre)" address_dataline="_0x1c">
+            <dataline_input id="_0xe5d5a" name="Tryk (højre)" address_dataline="_0x14" cable_colour="Hvid">
                <link_from_resource id="_0xe292d" name="Følg Link" icon="_0x47" link="_0xe2a2c"/>
             </dataline_input>
-            <dataline_input id="_0xe255a" name="Tryk (nederst venstre)" address_dataline="_0x1d">
-               <link_from_resource id="_0xe302d" name="Følg Link" icon="_0x47" link="_0xe312c"/>
-            </dataline_input>
-            <dataline_input id="_0xe265a" name="Tryk (nederst højre)" address_dataline="_0x1e">
-               <link_from_resource id="_0xe322d" name="Følg Link" icon="_0x47" link="_0xe332c"/>
-            </dataline_input>
+         </product_dataline>
+         <product_dataline id="_0xe2253" product_identifier="_0x2102" name="LK FUGA Tryk 4 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 4 SL" position="IR Fjernbetjening" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+            <dataline_input id="_0xe235a" name="Tryk (øverst venstre)" address_dataline="_0x1b"/>
+            <dataline_input id="_0xe245a" name="Tryk (øverst højre)" address_dataline="_0x1c"/>
+            <dataline_input id="_0xe255a" name="Tryk (nederst venstre)" address_dataline="_0x1d"/>
+            <dataline_input id="_0xe265a" name="Tryk (nederst højre)" address_dataline="_0x1e"/>
          </product_dataline>
          <product_dataline id="_0xe0a53" product_identifier="_0x2302" name="UniDimmer 2-tast betjent" locked="yes" icon="_0x86" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
             <dataline_output id="_0xe0b5b" name="Tænd / regulér op" backup="yes" address_dataline="_0x13">
@@ -1210,14 +1215,26 @@
             <dataline_output id="_0xe0c5b" name="Sluk / regulér ned" backup="yes" address_dataline="_0x14">
                <link_to_resource id="_0xe212c" name="Følg Link" icon="_0x4a" link="_0xe202d"/>
             </dataline_output>
-            <dataline_output id="_0xe0d5b" name="Memory 1" backup="yes" address_dataline="_0x15"/>
-            <dataline_output id="_0xe0e5b" name="Memory 2" backup="yes" address_dataline="_0x16"/>
+            <dataline_output id="_0xe0d5b" name="Memory 1" backup="yes" address_dataline="_0x15">
+               <link_to_resource id="_0xe562c" name="Følg Link" icon="_0x4a" link="_0xe552d"/>
+            </dataline_output>
+            <dataline_output id="_0xe0e5b" name="Memory 2" backup="yes" address_dataline="_0x16">
+               <link_to_resource id="_0xe582c" name="Følg Link" icon="_0x4a" link="_0xe572d"/>
+            </dataline_output>
          </product_dataline>
          <product_dataline id="_0xe2b53" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag opholdstue">
             <dataline_output id="_0xe2c5b" name="Udgang" backup="yes" address_dataline="_0x6">
                <link_to_resource id="_0xe352c" name="Følg Link" icon="_0x4a" link="_0xe342d"/>
             </dataline_output>
             <scenes id="_0xe2d49" name="Scenarier" scene_resource="_0xe2c5b"/>
+         </product_dataline>
+         <product_dataline id="_0xe6053" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Midter Væggen" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="8">
+            <dataline_input id="_0xe615a" name="Tryk (venstre)" address_dataline="_0x15" cable_colour="Hvid">
+               <link_from_resource id="_0xe652d" name="Følg Link" icon="_0x47" link="_0xe662c"/>
+            </dataline_input>
+            <dataline_input id="_0xe625a" name="Tryk (højre)" address_dataline="_0x16" cable_colour="Orange">
+               <link_from_resource id="_0xe632d" name="Følg Link" icon="_0x47" link="_0xe642c"/>
+            </dataline_input>
          </product_dataline>
       </group>
       <group id="_0x2232" name="Entré" icon="_0x15">
@@ -1235,6 +1252,7 @@
                <link_from_resource id="_0xe4f2d" name="Følg Link" icon="_0x47" link="_0xe502c"/>
                <link_from_resource id="_0xe512d" name="Følg Link" icon="_0x47" link="_0xe522c"/>
                <link_from_resource id="_0xe532d" name="Følg Link" icon="_0x47" link="_0xe542c"/>
+               <link_from_resource id="_0xe5e2d" name="Følg Link" icon="_0x47" link="_0xe5f2c"/>
             </dataline_input>
          </product_dataline>
          <functionblock id="_0x7a428" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
