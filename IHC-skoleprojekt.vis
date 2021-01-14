@@ -298,8 +298,8 @@
                   note CDATA ""
                   udf CDATA "">
 ]>
-<utcs_project version_major="4" version_minor="0" id1="_0x70b1b33" id2="_0xe0a2720" last_unique_id="_0x989">
-   <modified year="2021" month="1" day="14" hour="10" minute="39"/>
+<utcs_project version_major="4" version_minor="0" id1="_0x70b1b33" id2="_0xe0d092d" last_unique_id="_0x9b1">
+   <modified year="2021" month="1" day="14" hour="13" minute="9"/>
    <customer_info/>
    <installer_info/>
    <project_info programmer="Jeppe"/>
@@ -316,20 +316,20 @@
          <enum_value id="_0x2ab48" name="Kun efterløb" index="1"/>
          <enum_value id="_0x2ac48" name="Tænder lys"/>
       </enum_definition>
-      <enum_definition id="_0x63547" typeid="_0x10" name="Persienne tilstand">
-         <enum_value id="_0x63648" typeid="_0x11" name="Ukendt"/>
-         <enum_value id="_0x63748" typeid="_0x12" name="Oppe" index="1"/>
-         <enum_value id="_0x63848" typeid="_0x13" name="Nede" index="2"/>
-         <enum_value id="_0x63948" typeid="_0x14" name="Kører op" index="3"/>
-         <enum_value id="_0x63a48" typeid="_0x15" name="Kører ned" index="4"/>
+      <enum_definition id="_0x98a47" typeid="_0x10" name="Persienne tilstand">
+         <enum_value id="_0x98b48" typeid="_0x11" name="Ukendt"/>
+         <enum_value id="_0x98c48" typeid="_0x12" name="Oppe" index="1"/>
+         <enum_value id="_0x98d48" typeid="_0x13" name="Nede" index="2"/>
+         <enum_value id="_0x98e48" typeid="_0x14" name="Kører op" index="3"/>
+         <enum_value id="_0x98f48" typeid="_0x15" name="Kører ned" index="4"/>
       </enum_definition>
-      <enum_definition id="_0x63b47" typeid="_0x16" name="Logning">
-         <enum_value id="_0x63c48" typeid="_0x17" name="Off"/>
-         <enum_value id="_0x63d48" typeid="_0x18" name="Kun ændringer" index="1"/>
-         <enum_value id="_0x63e48" typeid="_0x19" name="Hver Time" index="2"/>
-         <enum_value id="_0x63f48" typeid="_0x20" name="Dagligt" index="3"/>
-         <enum_value id="_0x64048" typeid="_0x21" name="Ugentligt" index="4"/>
-         <enum_value id="_0x64148" typeid="_0x22" name="Månedligt" index="5"/>
+      <enum_definition id="_0x99047" typeid="_0x16" name="Logning">
+         <enum_value id="_0x99148" typeid="_0x17" name="Off"/>
+         <enum_value id="_0x99248" typeid="_0x18" name="Kun ændringer" index="1"/>
+         <enum_value id="_0x99348" typeid="_0x19" name="Hver Time" index="2"/>
+         <enum_value id="_0x99448" typeid="_0x20" name="Dagligt" index="3"/>
+         <enum_value id="_0x99548" typeid="_0x21" name="Ugentligt" index="4"/>
+         <enum_value id="_0x99648" typeid="_0x22" name="Månedligt" index="5"/>
       </enum_definition>
    </enum_definitions>
    <groups id="_0x2031" name="Lokaliteter" icon="_0x15" note="Gruppering af produkter og funktionsblokke">
@@ -348,7 +348,9 @@
                <resource_input id="_0x5c711" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x5c811" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x5c911" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x5ca11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x5ca11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0x9a12c" name="Følg Link" icon="_0x4a" link="_0x9a02d"/>
+               </resource_input>
             </inputs>
             <outputs id="_0x5cb24" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
                <resource_output id="_0x5cc12" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
@@ -501,7 +503,17 @@
             <dataline_input id="_0x7a25a" name="Tryk (venstre)" address_dataline="_0x8">
                <link_from_resource id="_0x80e2d" name="Følg Link" icon="_0x47" link="_0x80f2c"/>
             </dataline_input>
-            <dataline_input id="_0x7a35a" name="Tryk (højre)" address_dataline="_0x9"/>
+            <dataline_input id="_0x7a35a" name="Tryk (højre)" address_dataline="_0x9">
+               <link_from_resource id="_0x9a02d" name="Følg Link" icon="_0x47" link="_0x9a12c"/>
+               <link_from_resource id="_0x9a22d" name="Følg Link" icon="_0x47" link="_0x9a32c"/>
+               <link_from_resource id="_0x9a42d" name="Følg Link" icon="_0x47" link="_0x9a52c"/>
+               <link_from_resource id="_0x9a62d" name="Følg Link" icon="_0x47" link="_0x9a72c"/>
+               <link_from_resource id="_0x9a82d" name="Følg Link" icon="_0x47" link="_0x9a92c"/>
+               <link_from_resource id="_0x9aa2d" name="Følg Link" icon="_0x47" link="_0x9ab2c"/>
+               <link_from_resource id="_0x9ac2d" name="Følg Link" icon="_0x47" link="_0x9ad2c"/>
+               <link_from_resource id="_0x9ae2d" name="Følg Link" icon="_0x47" link="_0x9af2c"/>
+               <link_from_resource id="_0x9b02d" name="Følg Link" icon="_0x47" link="_0x9b12c"/>
+            </dataline_input>
          </product_dataline>
          <functionblock id="_0x7a428" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x7a523" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
@@ -515,7 +527,9 @@
                <resource_input id="_0x7a711" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x7a811" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x7a911" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x7aa11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x7aa11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0x9a32c" name="Følg Link" icon="_0x4a" link="_0x9a22d"/>
+               </resource_input>
             </inputs>
             <outputs id="_0x7ab24" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
                <resource_output id="_0x7ac12" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
@@ -706,7 +720,9 @@
                <resource_input id="_0xc111" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0xc211" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0xc311" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0xc411" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0xc411" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0x9a52c" name="Følg Link" icon="_0x4a" link="_0x9a42d"/>
+               </resource_input>
             </inputs>
             <outputs id="_0xc524" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
                <resource_output id="_0xc612" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
@@ -855,7 +871,9 @@
                <resource_input id="_0x13211" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x13311" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x13411" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x13511" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x13511" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0x9b12c" name="Følg Link" icon="_0x4a" link="_0x9b02d"/>
+               </resource_input>
             </inputs>
             <outputs id="_0x13624" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
                <resource_output id="_0x13712" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
@@ -1024,7 +1042,9 @@
                <resource_input id="_0x3f511" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x3f611" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x3f711" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x3f811" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x3f811" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0x9a72c" name="Følg Link" icon="_0x4a" link="_0x9a62d"/>
+               </resource_input>
             </inputs>
             <outputs id="_0x3f924" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
                <resource_output id="_0x3fa12" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
@@ -1193,7 +1213,9 @@
                <resource_input id="_0x8aa11" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x8ab11" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x8ac11" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x8ad11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x8ad11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0x9a92c" name="Følg Link" icon="_0x4a" link="_0x9a82d"/>
+               </resource_input>
             </inputs>
             <outputs id="_0x8ae24" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
                <resource_output id="_0x8af12" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
@@ -1356,7 +1378,9 @@
                <resource_input id="_0x91f11" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x92011" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x92111" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x92211" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x92211" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0x9ab2c" name="Følg Link" icon="_0x4a" link="_0x9aa2d"/>
+               </resource_input>
             </inputs>
             <outputs id="_0x92324" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
                <resource_output id="_0x92412" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
@@ -1507,7 +1531,9 @@
                <resource_input id="_0x1c011" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x1c111" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x1c211" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x1c311" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x1c311" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0x9ad2c" name="Følg Link" icon="_0x4a" link="_0x9ac2d"/>
+               </resource_input>
             </inputs>
             <outputs id="_0x1c424" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
                <resource_output id="_0x1c512" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
@@ -1692,7 +1718,7 @@
                <resource_scene id="_0x2bc4a" name="Scenarie sluk" note="Forbindes til relæ og/eller IHC Wireless lysdæmper."/>
             </outputs>
             <settings id="_0x2bd25" name="Indstillinger" icon="_0xd" note="Variablene i denne gruppering er indstillinger til funktionsblokken">
-               <resource_timer id="_0x2be10" name="Efterløb" backup="yes" icon="_0x43" note="Her indstilles efterløbstiden.&#xD;&#xA;" hour="0" minute="3" second="0" millisecond="0"/>
+               <resource_timer id="_0x2be10" name="Efterløb" backup="yes" icon="_0x43" note="Her indstilles efterløbstiden.&#xD;&#xA;" hour="0" minute="0" second="10" millisecond="0"/>
                <resource_enum id="_0x2bf0f" name="PIR funktion" typedef="_0x2a747" inivalue="_0x2a848" backup="yes" icon="_0x22" note="Her er det muligt, at vælge hvilken funktion PIR&apos;en skal have dag/aften.&#xD;&#xA;Vælg mellem:&#xD;&#xA;&#xD;&#xA;&quot;Tænder lys&quot;&#xD;&#xA;&quot;Kun efterløb&quot;&#xD;&#xA;"/>
                <resource_enum id="_0x2c00f" name="PIR funktion nat" typedef="_0x2aa47" inivalue="_0x2ab48" backup="yes" icon="_0x22" note="Her er det muligt, at vælge hvilken funktion PIR&apos;en skal have om natten.&#xD;&#xA;Natdrift indgangen skal benyttes for at opnå funktion.&#xD;&#xA;&#xD;&#xA;Vælg mellem:&#xD;&#xA;&#xD;&#xA;&quot;Tænder lys&quot;&#xD;&#xA;&quot;Kun efterløb&quot;&#xD;&#xA;"/>
                <resource_enum id="_0x2c10f" name="Manuel tænding" typedef="_0x2a447" inivalue="_0x2a548" icon="_0x22" note="Her er det muligt, at vælge funktion på manuel tænding.&#xD;&#xA;&#xD;&#xA;Vælg mellem:&#xD;&#xA;&#xD;&#xA;Ved &quot;Starter efterløb&quot; vil lys slukke på efterløb efter sidste påvirking af PIR eller tryk.&#xD;&#xA;Ved &quot;Spærrer efterløb&quot; vil lys ikke slukke ved skumringsfrafald når manuel betjening er aktiv."/>
@@ -2301,7 +2327,9 @@
                <resource_input id="_0x64911" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x64a11" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x64b11" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x64c11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x64c11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+                  <link_to_resource id="_0x9af2c" name="Følg Link" icon="_0x4a" link="_0x9ae2d"/>
+               </resource_input>
             </inputs>
             <outputs id="_0x64d24" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
                <resource_output id="_0x64e12" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
