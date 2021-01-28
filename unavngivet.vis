@@ -308,10 +308,10 @@
                   note CDATA ""
                   udf CDATA "">
 ]>
-<utcs_project version_major="4" version_minor="0" id1="_0x70b1b33" id2="_0xe0e391c" last_unique_id="_0xeae">
-   <modified year="2021" month="1" day="14" hour="14" minute="57"/>
-   <customer_info/>
-   <installer_info/>
+<utcs_project version_major="4" version_minor="0" id1="_0x70b1b33" id2="_0x1b0f1703" last_unique_id="_0xfbf">
+   <modified year="2021" month="1" day="27" hour="15" minute="23"/>
+   <customer_info name="Fru. Hansen"/>
+   <installer_info name="Kim og Jeppe"/>
    <project_info programmer="Jeppe"/>
    <enum_definitions id="_0x3046" name="Enumerator definitioner">
       <enum_definition id="_0x2a447" name="Manuel tænding">
@@ -342,33 +342,33 @@
          <enum_value id="_0xa0d48" name="Sidste niveau" index="2"/>
          <enum_value id="_0xa0e48" name="Lavt niveau" index="1"/>
       </enum_definition>
-      <enum_definition id="_0xe3647" typeid="_0x10" name="Persienne tilstand">
-         <enum_value id="_0xe3748" typeid="_0x11" name="Ukendt"/>
-         <enum_value id="_0xe3848" typeid="_0x12" name="Oppe" index="1"/>
-         <enum_value id="_0xe3948" typeid="_0x13" name="Nede" index="2"/>
-         <enum_value id="_0xe3a48" typeid="_0x14" name="Kører op" index="3"/>
-         <enum_value id="_0xe3b48" typeid="_0x15" name="Kører ned" index="4"/>
+      <enum_definition id="_0xfb147" typeid="_0x10" name="Persienne tilstand">
+         <enum_value id="_0xfb248" typeid="_0x11" name="Ukendt"/>
+         <enum_value id="_0xfb348" typeid="_0x12" name="Oppe" index="1"/>
+         <enum_value id="_0xfb448" typeid="_0x13" name="Nede" index="2"/>
+         <enum_value id="_0xfb548" typeid="_0x14" name="Kører op" index="3"/>
+         <enum_value id="_0xfb648" typeid="_0x15" name="Kører ned" index="4"/>
       </enum_definition>
-      <enum_definition id="_0xe3c47" typeid="_0x16" name="Logning">
-         <enum_value id="_0xe3d48" typeid="_0x17" name="Off"/>
-         <enum_value id="_0xe3e48" typeid="_0x18" name="Kun ændringer" index="1"/>
-         <enum_value id="_0xe3f48" typeid="_0x19" name="Hver Time" index="2"/>
-         <enum_value id="_0xe4048" typeid="_0x20" name="Dagligt" index="3"/>
-         <enum_value id="_0xe4148" typeid="_0x21" name="Ugentligt" index="4"/>
-         <enum_value id="_0xe4248" typeid="_0x22" name="Månedligt" index="5"/>
+      <enum_definition id="_0xfb747" typeid="_0x16" name="Logning">
+         <enum_value id="_0xfb848" typeid="_0x17" name="Off"/>
+         <enum_value id="_0xfb948" typeid="_0x18" name="Kun ændringer" index="1"/>
+         <enum_value id="_0xfba48" typeid="_0x19" name="Hver Time" index="2"/>
+         <enum_value id="_0xfbb48" typeid="_0x20" name="Dagligt" index="3"/>
+         <enum_value id="_0xfbc48" typeid="_0x21" name="Ugentligt" index="4"/>
+         <enum_value id="_0xfbd48" typeid="_0x22" name="Månedligt" index="5"/>
       </enum_definition>
    </enum_definitions>
    <groups id="_0x2031" name="Lokaliteter" icon="_0x15" note="Gruppering af produkter og funktionsblokke">
       <group id="_0x2132" name="Stue" icon="_0x15">
-         <functionblock id="_0x5c428" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
+         <functionblock id="_0x5c428" name="1.1.01.e. Kip tænd sluk - Opholdstue Loft" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x5c523" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x5c611" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x5c611" name="Kip" icon="_0x36" note="Tænd/Sluk Lys loft - Opholdstue">
                   <link_to_resource id="_0xe662c" name="Følg Link" icon="_0x4a" link="_0xe652d"/>
                </resource_input>
                <resource_input id="_0x5c711" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x5c811" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x5c911" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x5ca11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x5ca11" name="Sluk" icon="_0x36" note="Sluk Lys loft - Opholdstue">
                   <link_to_resource id="_0xe442c" name="Følg Link" icon="_0x4a" link="_0xe432d"/>
                </resource_input>
             </inputs>
@@ -511,16 +511,15 @@
                </program_simple>
             </programs>
          </functionblock>
-         <functionblock id="_0xbfd28" name="1.2.02.c. Fortrådet lysdæmper " master_schneider_electric="yes" master_type="1.2.02" master_version="c" master_name="Fortrådet lysdæmper " master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2016" master_date_year="2017" master_date_month="7" master_date_day="23" locked="yes" icon="_0xe" note="1.2.02.c. Fortrådet lysdæmper&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;Til styring af fortrådet lysdæmper.&#xD;&#xA;Kan anvendes som 1- og/eller 2-tast betjent regulering. &#xD;&#xA;Kan fremkalde/gemme to scenarier.&#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse; markér overskrift på funktionsblok og tryk F1.&#xD;&#xA;Bemærk: Dette virker kun hvis blokken er rød-markeret&#xD;&#xA;">
+         <functionblock id="_0xbfd28" name="1.2.02.c. Fortrådet lysdæmper - Stue Loft" master_schneider_electric="yes" master_type="1.2.02" master_version="c" master_name="Fortrådet lysdæmper " master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2016" master_date_year="2017" master_date_month="7" master_date_day="23" locked="yes" icon="_0xe" note="1.2.02.c. Fortrådet lysdæmper&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;Til styring af fortrådet lysdæmper.&#xD;&#xA;Kan anvendes som 1- og/eller 2-tast betjent regulering. &#xD;&#xA;Kan fremkalde/gemme to scenarier.&#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse; markér overskrift på funktionsblok og tryk F1.&#xD;&#xA;Bemærk: Dette virker kun hvis blokken er rød-markeret&#xD;&#xA;">
             <inputs id="_0xc0c23" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
                <resource_input id="_0xc0d11" name="Touch " icon="_0x36" note="Kort tryk tænd /sluk - langt tryk regulerer lys niveau op/ned &#xD;&#xA;(Udfyldes af installatøren)&#xD;&#xA;"/>
-               <resource_input id="_0xc0e11" name="Tænd/regulér op" icon="_0x36" note="Kort tryk tænd - langt tryk regulerer lysniveau op&#xD;&#xA;(Udfyldes af installatøren)&#xD;&#xA;">
+               <resource_input id="_0xc0e11" name="Tænd/regulér op" icon="_0x36" note="Kort tryk tænd - langt tryk regulerer lysniveau op&#xD;&#xA;">
                   <link_to_resource id="_0xe5a2c" name="Følg Link" icon="_0x4a" link="_0xe592d"/>
                </resource_input>
-               <resource_input id="_0xc0f11" name="Sluk/regulér ned  " icon="_0x36" note="Kort tryk sluk - langt tryk regulerer lysniveau ned&#xD;&#xA;(Udfyldes af installatøren)&#xD;&#xA;">
+               <resource_input id="_0xc0f11" name="Sluk/regulér ned  " icon="_0x36" note="Kort tryk sluk - langt tryk regulerer lysniveau ned&#xD;&#xA;">
                   <link_to_resource id="_0xe2a2c" name="Følg Link" icon="_0x4a" link="_0xe292d"/>
                   <link_to_resource id="_0xe5f2c" name="Følg Link" icon="_0x4a" link="_0xe5e2d"/>
-                  <link_to_resource id="_0xe642c" name="Følg Link" icon="_0x4a" link="_0xe632d"/>
                </resource_input>
                <resource_input id="_0xc1011" name="Høj" icon="_0x36" note="Fremkalder højt lysniveau.&#xD;&#xA;Tryk over 3 sek. vil gemme det aktuelle lysniveau som høj.&#xD;&#xA;Som kvittering blinker udgang samt diode i frontplade.&#xD;&#xA;Niveau gemmes kun, hvis lysdæmper er tændt.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0xc1111" name="Lav " icon="_0x36" note="Fremkalder lavt lysniveau.&#xD;&#xA;Tryk over 3 sek. vil gemme det aktuelle lysniveau som lav.&#xD;&#xA;Som kvittering blinker udgang samt diode i frontplade.&#xD;&#xA;Niveau gemmes kun, hvis lysdæmper er tændt.&#xD;&#xA;(Udfyldes af installatøren)"/>
@@ -533,12 +532,8 @@
                <resource_output id="_0xc1512" name="Sluk/regulér ned" icon="_0x39" note="Forbindes til klemme 2 på 400 UNI IHC/SA.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion.">
                   <link_from_resource id="_0xe202d" name="Følg Link" icon="_0x47" link="_0xe212c"/>
                </resource_output>
-               <resource_output id="_0xc1612" name="Lavt niveau - Memory 1" icon="_0x39" note="Forbindes til klemme 3 på UNI Dimmer 400.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion.">
-                  <link_from_resource id="_0xe552d" name="Følg Link" icon="_0x47" link="_0xe562c"/>
-               </resource_output>
-               <resource_output id="_0xc1712" name="Højt niveau - Memory 2" icon="_0x39" note="Forbindes til klemme 4 på 400 UNI IHC/SA.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion.">
-                  <link_from_resource id="_0xe572d" name="Følg Link" icon="_0x47" link="_0xe582c"/>
-               </resource_output>
+               <resource_output id="_0xc1612" name="Lavt niveau - Memory 1" icon="_0x39" note="Forbindes til klemme 3 på UNI Dimmer 400.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion."/>
+               <resource_output id="_0xc1712" name="Højt niveau - Memory 2" icon="_0x39" note="Forbindes til klemme 4 på 400 UNI IHC/SA.&#xD;&#xA;Skal forbindes til lysdæmperen for korrekt funktion."/>
                <resource_enum id="_0xc180f" name="Lysdæmper status" typedef="_0xa0147" inivalue="_0xa0348" backup="yes" icon="_0x22" note="Status indikering til Viewer."/>
                <resource_output id="_0xc1912" name="Lysdæmper tændt" backup="yes" icon="_0x39" note="Status indikering i diode eller Viewer."/>
             </outputs>
@@ -1194,7 +1189,7 @@
                </program_simple>
             </programs>
          </functionblock>
-         <product_dataline id="_0xe5b53" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Ved dør" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="9">
+         <product_dataline id="_0xe5b53" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Ved dør fra entré" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="9">
             <dataline_input id="_0xe5c5a" name="Tryk (venstre)" address_dataline="_0x13" cable_colour="Gul">
                <link_from_resource id="_0xe592d" name="Følg Link" icon="_0x47" link="_0xe5a2c"/>
             </dataline_input>
@@ -1202,39 +1197,27 @@
                <link_from_resource id="_0xe292d" name="Følg Link" icon="_0x47" link="_0xe2a2c"/>
             </dataline_input>
          </product_dataline>
-         <product_dataline id="_0xe2253" product_identifier="_0x2102" name="LK FUGA Tryk 4 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 4 SL" position="IR Fjernbetjening" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
-            <dataline_input id="_0xe235a" name="Tryk (øverst venstre)" address_dataline="_0x1b"/>
-            <dataline_input id="_0xe245a" name="Tryk (øverst højre)" address_dataline="_0x1c"/>
-            <dataline_input id="_0xe255a" name="Tryk (nederst venstre)" address_dataline="_0x1d"/>
-            <dataline_input id="_0xe265a" name="Tryk (nederst højre)" address_dataline="_0x1e"/>
-         </product_dataline>
-         <product_dataline id="_0xe0a53" product_identifier="_0x2302" name="UniDimmer 2-tast betjent" locked="yes" icon="_0x86" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0xe0a53" product_identifier="_0x2302" name="UniDimmer 2-tast betjent" locked="yes" icon="_0x86" position="Lampeudtag - Spisebord" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="1">
             <dataline_output id="_0xe0b5b" name="Tænd / regulér op" backup="yes" address_dataline="_0x13">
                <link_to_resource id="_0xe1f2c" name="Følg Link" icon="_0x4a" link="_0xe1e2d"/>
             </dataline_output>
             <dataline_output id="_0xe0c5b" name="Sluk / regulér ned" backup="yes" address_dataline="_0x14">
                <link_to_resource id="_0xe212c" name="Følg Link" icon="_0x4a" link="_0xe202d"/>
             </dataline_output>
-            <dataline_output id="_0xe0d5b" name="Memory 1" backup="yes" address_dataline="_0x15">
-               <link_to_resource id="_0xe562c" name="Følg Link" icon="_0x4a" link="_0xe552d"/>
-            </dataline_output>
-            <dataline_output id="_0xe0e5b" name="Memory 2" backup="yes" address_dataline="_0x16">
-               <link_to_resource id="_0xe582c" name="Følg Link" icon="_0x4a" link="_0xe572d"/>
-            </dataline_output>
+            <dataline_output id="_0xe0d5b" name="Memory 1" backup="yes" address_dataline="_0x15"/>
+            <dataline_output id="_0xe0e5b" name="Memory 2" backup="yes" address_dataline="_0x16"/>
          </product_dataline>
-         <product_dataline id="_0xe2b53" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag opholdstue">
+         <product_dataline id="_0xe2b53" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag - Loft opholdstue" cabletype="5x1,5mm2 NOIKJ" cablenumber="2">
             <dataline_output id="_0xe2c5b" name="Udgang" backup="yes" address_dataline="_0x6">
                <link_to_resource id="_0xe352c" name="Følg Link" icon="_0x4a" link="_0xe342d"/>
             </dataline_output>
             <scenes id="_0xe2d49" name="Scenarier" scene_resource="_0xe2c5b"/>
          </product_dataline>
-         <product_dataline id="_0xe6053" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Midter Væggen" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="8">
+         <product_dataline id="_0xe6053" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Midt stue" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="8">
             <dataline_input id="_0xe615a" name="Tryk (venstre)" address_dataline="_0x15" cable_colour="Hvid">
                <link_from_resource id="_0xe652d" name="Følg Link" icon="_0x47" link="_0xe662c"/>
             </dataline_input>
-            <dataline_input id="_0xe625a" name="Tryk (højre)" address_dataline="_0x16" cable_colour="Orange">
-               <link_from_resource id="_0xe632d" name="Følg Link" icon="_0x47" link="_0xe642c"/>
-            </dataline_input>
+            <dataline_input id="_0xe625a" name="Tryk (højre)" address_dataline="_0x16" cable_colour="Orange"/>
          </product_dataline>
       </group>
       <group id="_0x2232" name="Entré" icon="_0x15">
@@ -1255,9 +1238,9 @@
                <link_from_resource id="_0xe5e2d" name="Følg Link" icon="_0x47" link="_0xe5f2c"/>
             </dataline_input>
          </product_dataline>
-         <functionblock id="_0x7a428" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
+         <functionblock id="_0x7a428" name="1.1.01.e. Kip tænd sluk - Spots Loft" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x7a523" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x7a611" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x7a611" name="Kip" icon="_0x36" note="Tænd/Sluk Lys Spots Entré ">
                   <link_to_resource id="_0x80f2c" name="Følg Link" icon="_0x4a" link="_0x80e2d"/>
                   <link_to_resource id="_0x88c2c" name="Følg Link" icon="_0x4a" link="_0x88b2d"/>
                   <link_to_resource id="_0x8952c" name="Følg Link" icon="_0x4a" link="_0x8942d"/>
@@ -1267,7 +1250,7 @@
                <resource_input id="_0x7a711" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x7a811" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x7a911" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x7aa11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x7aa11" name="Sluk" icon="_0x36" note="Sluk Lys Spots Entré">
                   <link_to_resource id="_0xe462c" name="Følg Link" icon="_0x4a" link="_0xe452d"/>
                </resource_input>
             </inputs>
@@ -1410,13 +1393,13 @@
                </program_simple>
             </programs>
          </functionblock>
-         <product_dataline id="_0x88153" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Spots entre" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x88153" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Spots entre" cabletype="5x1,5mm2 NOIKJ" cablenumber="3">
             <dataline_output id="_0x8825b" name="Udgang" backup="yes" address_dataline="_0x4">
                <link_to_resource id="_0x8872c" name="Følg Link" icon="_0x4a" link="_0x8862d"/>
             </dataline_output>
             <scenes id="_0x88349" name="Scenarier" scene_resource="_0x8825b"/>
          </product_dataline>
-         <product_dataline id="_0x88853" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Ved bad" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x88853" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Bad dør i entré" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
             <dataline_input id="_0x8895a" name="Tryk (venstre)" address_dataline="_0xb">
                <link_from_resource id="_0x88d2d" name="Følg Link" icon="_0x47" link="_0x88e2c"/>
             </dataline_input>
@@ -1424,19 +1407,19 @@
                <link_from_resource id="_0x88b2d" name="Følg Link" icon="_0x47" link="_0x88c2c"/>
             </dataline_input>
          </product_dataline>
-         <product_dataline id="_0x89153" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Soveværelse" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x89153" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Soveværelse - ved dør" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
             <dataline_input id="_0x8925a" name="Tryk (venstre)" address_dataline="_0xd">
                <link_from_resource id="_0x8942d" name="Følg Link" icon="_0x47" link="_0x8952c"/>
             </dataline_input>
             <dataline_input id="_0x8935a" name="Tryk (højre)"/>
          </product_dataline>
-         <product_dataline id="_0x89653" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="kammer1" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x89653" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="kammer1 - ved dør" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
             <dataline_input id="_0x8975a" name="Tryk (venstre)" address_dataline="_0xf">
                <link_from_resource id="_0x8992d" name="Følg Link" icon="_0x47" link="_0x89a2c"/>
             </dataline_input>
             <dataline_input id="_0x8985a" name="Tryk (højre)"/>
          </product_dataline>
-         <product_dataline id="_0x89b53" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="kammer2" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x89b53" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="kammer2 - ved dør" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
             <dataline_input id="_0x89c5a" name="Tryk (venstre)" address_dataline="_0x11">
                <link_from_resource id="_0x89e2d" name="Følg Link" icon="_0x47" link="_0x89f2c"/>
             </dataline_input>
@@ -1444,7 +1427,7 @@
          </product_dataline>
       </group>
       <group id="_0x2332" name="Køkken" icon="_0x15">
-         <product_dataline id="_0x5153" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Ved dør" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="1" documentation_tag="1">
+         <product_dataline id="_0x5153" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="Ved dør fra entré" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="1" documentation_tag="1">
             <dataline_input id="_0x525a" name="Tryk (venstre)" address_dataline="_0x1">
                <link_from_resource id="_0x1282d" name="Følg Link" icon="_0x47" link="_0x1292c"/>
             </dataline_input>
@@ -1454,13 +1437,13 @@
          </product_dataline>
          <functionblock id="_0xbe28" name="1.1.01.e. Kip tænd sluk - Spot&apos;s over Køkkenbord" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0xbf23" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0xc011" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0xc011" name="Kip" icon="_0x36" note="Tænd/Sluk Lys Spots Køkkenbord">
                   <link_to_resource id="_0x1292c" name="Følg Link" icon="_0x4a" link="_0x1282d"/>
                </resource_input>
                <resource_input id="_0xc111" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0xc211" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0xc311" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0xc411" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0xc411" name="Sluk" icon="_0x36" note="Sluk Lys Spots Køkkenbord">
                   <link_to_resource id="_0xe482c" name="Følg Link" icon="_0x4a" link="_0xe472d"/>
                </resource_input>
             </inputs>
@@ -1605,13 +1588,13 @@
          </functionblock>
          <functionblock id="_0x12f28" name="1.1.01.e. Kip tænd sluk - Spisebord" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x13023" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x13111" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x13111" name="Kip" icon="_0x36" note="Tænd/Sluk Lys Køkkenbord">
                   <link_to_resource id="_0x19a2c" name="Følg Link" icon="_0x4a" link="_0x1992d"/>
                </resource_input>
                <resource_input id="_0x13211" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x13311" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x13411" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x13511" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x13511" name="Sluk" icon="_0x36" note="Sluk Lys Køkkenbord">
                   <link_to_resource id="_0xe4a2c" name="Følg Link" icon="_0x4a" link="_0xe492d"/>
                </resource_input>
             </inputs>
@@ -1754,13 +1737,13 @@
                </program_simple>
             </programs>
          </functionblock>
-         <product_dataline id="_0x1a053" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Spot&apos;s over Køkkenbord" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x1a053" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Spot&apos;s over Køkkenbord" cabletype="5x1,5mm2 NOIKJ" cablenumber="4">
             <dataline_output id="_0x1a15b" name="Udgang" backup="yes" address_dataline="_0x1">
                <link_to_resource id="_0x1a92c" name="Følg Link" icon="_0x4a" link="_0x1a82d"/>
             </dataline_output>
             <scenes id="_0x1a249" name="Scenarier" scene_resource="_0x1a15b"/>
          </product_dataline>
-         <product_dataline id="_0x1a353" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag over Spisebord" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x1a353" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag over Spisebord" cabletype="5x1,5mm2 NOIKJ" cablenumber="4">
             <dataline_output id="_0x1a45b" name="Udgang" backup="yes" address_dataline="_0x2">
                <link_to_resource id="_0x1a72c" name="Følg Link" icon="_0x4a" link="_0x1a62d"/>
             </dataline_output>
@@ -1774,15 +1757,15 @@
             </dataline_input>
             <dataline_input id="_0x3f15a" name="Tryk (højre)"/>
          </product_dataline>
-         <functionblock id="_0x3f228" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
+         <functionblock id="_0x3f228" name="1.1.01.e. Kip tænd sluk - Soveværelse Loft" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x3f323" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x3f411" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x3f411" name="Kip" icon="_0x36" note="Tænd/Sluk Lys Loft Soveværelse">
                   <link_to_resource id="_0x45d2c" name="Følg Link" icon="_0x4a" link="_0x45c2d"/>
                </resource_input>
                <resource_input id="_0x3f511" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x3f611" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x3f711" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x3f811" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x3f811" name="Sluk" icon="_0x36" note="Sluk Lys Loft Soveværelse">
                   <link_to_resource id="_0xe4c2c" name="Følg Link" icon="_0x4a" link="_0xe4b2d"/>
                </resource_input>
             </inputs>
@@ -1925,7 +1908,7 @@
                </program_simple>
             </programs>
          </functionblock>
-         <product_dataline id="_0x45e53" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag Loft" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x45e53" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag  Loft" cabletype="5x1,5mm2 NOIKJ" cablenumber="5">
             <dataline_output id="_0x45f5b" name="Udgang" backup="yes" address_dataline="_0x9">
                <link_to_resource id="_0x4622c" name="Følg Link" icon="_0x4a" link="_0x4612d"/>
             </dataline_output>
@@ -1939,21 +1922,21 @@
             </dataline_input>
             <dataline_input id="_0x8a35a" name="Tryk (højre)"/>
          </product_dataline>
-         <product_dataline id="_0x8a453" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag loft" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x8a453" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag loft" cabletype="5x1,5mm2 NOIKJ" cablenumber="6">
             <dataline_output id="_0x8a55b" name="Udgang" backup="yes" address_dataline="_0x8">
                <link_to_resource id="_0x9142c" name="Følg Link" icon="_0x4a" link="_0x9132d"/>
             </dataline_output>
             <scenes id="_0x8a649" name="Scenarier" scene_resource="_0x8a55b"/>
          </product_dataline>
-         <functionblock id="_0x8a728" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
+         <functionblock id="_0x8a728" name="1.1.01.e. Kip tænd sluk - Kammer1 Loft" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x8a823" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x8a911" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x8a911" name="Kip" icon="_0x36" note="Tænd/Sluk Lys Loft Kammer1">
                   <link_to_resource id="_0x9122c" name="Følg Link" icon="_0x4a" link="_0x9112d"/>
                </resource_input>
                <resource_input id="_0x8aa11" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x8ab11" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x8ac11" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x8ad11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x8ad11" name="Sluk" icon="_0x36" note="Sluk Lys Loft Kammer1">
                   <link_to_resource id="_0xe4e2c" name="Følg Link" icon="_0x4a" link="_0xe4d2d"/>
                </resource_input>
             </inputs>
@@ -2104,21 +2087,21 @@
             </dataline_input>
             <dataline_input id="_0x9185a" name="Tryk (højre)"/>
          </product_dataline>
-         <product_dataline id="_0x91953" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag loft" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x91953" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Lampeudtag loft" cabletype="5x1,5mm2 NOIKJ" cablenumber="7">
             <dataline_output id="_0x91a5b" name="Udgang" backup="yes" address_dataline="_0x7">
                <link_to_resource id="_0x9892c" name="Følg Link" icon="_0x4a" link="_0x9882d"/>
             </dataline_output>
             <scenes id="_0x91b49" name="Scenarier" scene_resource="_0x91a5b"/>
          </product_dataline>
-         <functionblock id="_0x91c28" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
+         <functionblock id="_0x91c28" name="1.1.01.e. Kip tænd sluk - Kammer2 Loft" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x91d23" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x91e11" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x91e11" name="Kip" icon="_0x36" note="Tænd/Sluk Lys Loft Kammer2">
                   <link_to_resource id="_0x9872c" name="Følg Link" icon="_0x4a" link="_0x9862d"/>
                </resource_input>
                <resource_input id="_0x91f11" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x92011" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x92111" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x92211" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x92211" name="Sluk" icon="_0x36" note="Sluk Lys Loft Kammer2">
                   <link_to_resource id="_0xe502c" name="Følg Link" icon="_0x4a" link="_0xe4f2d"/>
                </resource_input>
             </inputs>
@@ -2263,15 +2246,15 @@
          </functionblock>
       </group>
       <group id="_0x2632" name="Bad" icon="_0x15">
-         <functionblock id="_0x1bd28" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
+         <functionblock id="_0x1bd28" name="1.1.01.e. Kip tænd sluk Loft Bad + Ventilator" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x1be23" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x1bf11" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x1bf11" name="Kip" icon="_0x36" note="Tænd/Sluk Lys Loft Bad + Ventilation">
                   <link_to_resource id="_0x88e2c" name="Følg Link" icon="_0x4a" link="_0x88d2d"/>
                </resource_input>
                <resource_input id="_0x1c011" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x1c111" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
                <resource_input id="_0x1c211" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x1c311" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x1c311" name="Sluk" icon="_0x36" note="Sluk Lys Loft Bad + Ventilation">
                   <link_to_resource id="_0xe522c" name="Følg Link" icon="_0x4a" link="_0xe512d"/>
                </resource_input>
             </inputs>
@@ -2415,13 +2398,13 @@
                </program_simple>
             </programs>
          </functionblock>
-         <product_dataline id="_0x22953" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Spot&apos;s Loft" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x22953" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Spot&apos;s Loft" cabletype="5x1,5mm2 NOIKJ" cablenumber="8">
             <dataline_output id="_0x22a5b" name="Udgang" backup="yes" address_dataline="_0xb">
                <link_to_resource id="_0x29c2c" name="Følg Link" icon="_0x4a" link="_0x29b2d"/>
             </dataline_output>
             <scenes id="_0x22b49" name="Scenarier" scene_resource="_0x22a5b"/>
          </product_dataline>
-         <product_dataline id="_0x22c53" product_identifier="_0x220c" name="Ventilator" locked="yes" icon="_0x84" position="Ventilator Bad" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x22c53" product_identifier="_0x220c" name="Ventilator" locked="yes" icon="_0x84" position="Ventilator Bad" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)" cablenumber="8">
             <dataline_output id="_0x22d5b" name="Udgang" backup="yes" address_dataline="_0x5">
                <link_to_resource id="_0x8902c" name="Følg Link" icon="_0x4a" link="_0x88f2d"/>
             </dataline_output>
@@ -2434,7 +2417,7 @@
                <link_from_resource id="_0x3e82d" name="Følg Link" icon="_0x47" link="_0x3e92c"/>
             </dataline_input>
          </product_dataline>
-         <functionblock id="_0x2a328" name="1.4.02.a. PIR styring " master_schneider_electric="yes" master_type="1.4.02" master_version="a" master_name="PIR styring " master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2016" master_date_year="2017" master_date_month="9" master_date_day="14" locked="yes" icon="_0xe" note="1.4.02.a. PIR styring &#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;Til simpel styring af IHC Wireless produkter og relæer ifm. PIR og manuel betjening.&#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis blokken er rød-markeret.">
+         <functionblock id="_0x2a328" name="1.4.02.a. PIR styring - Udendørs Lys" master_schneider_electric="yes" master_type="1.4.02" master_version="a" master_name="PIR styring " master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2016" master_date_year="2017" master_date_month="9" master_date_day="14" locked="yes" icon="_0xe" note="1.4.02.a. PIR styring &#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;Til simpel styring af IHC Wireless produkter og relæer ifm. PIR og manuel betjening.&#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis blokken er rød-markeret.">
             <inputs id="_0x2ad23" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
                <resource_input id="_0x2ae11" name="PIR" icon="_0x36" note="Forbindes til tilstedeværelses indikering fra PIR sensor.&#xD;&#xA;Virkemåde defineres under indstillinger:&#xD;&#xA; &quot;# PIR funktion&quot;&#xD;&#xA; &quot;# PIR funktion nat&quot;&#xD;&#xA;(Udfyldes af installatøren)">
                   <link_to_resource id="_0x3e92c" name="Følg Link" icon="_0x4a" link="_0x3e82d"/>
@@ -2890,17 +2873,182 @@
                </program_simple>
             </programs>
          </functionblock>
-         <product_dataline id="_0x3ea53" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Udendørs Lamper" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x3ea53" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Udendørs Lamper" cabletype="5x1,5mm2 NOIKJ" cablenumber="9">
             <dataline_output id="_0x3eb5b" name="Udgang" backup="yes" address_dataline="_0xc">
                <link_to_resource id="_0x3ee2c" name="Følg Link" icon="_0x4a" link="_0x3ed2d"/>
             </dataline_output>
             <scenes id="_0x3ec49" name="Scenarier" scene_resource="_0x3eb5b"/>
          </product_dataline>
       </group>
-      <group id="_0x4da32" name="Home-assistant" icon="_0x15">
+      <group id="_0x64232" name="WC ved entre" icon="_0x15">
+         <product_dataline id="_0x64353" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="ved dør fra entré" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+            <dataline_input id="_0x6445a" name="Tryk (venstre)" address_dataline="_0xa">
+               <link_from_resource id="_0x6b02d" name="Følg Link" icon="_0x47" link="_0x6b12c"/>
+            </dataline_input>
+            <dataline_input id="_0x6455a" name="Tryk (højre)"/>
+         </product_dataline>
+         <functionblock id="_0x64628" name="1.1.01.e. Kip tænd sluk - WC Loft" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
+            <inputs id="_0x64723" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
+               <resource_input id="_0x64811" name="Kip" icon="_0x36" note="Tænd/Sluk Lys Loft WC">
+                  <link_to_resource id="_0x6b12c" name="Følg Link" icon="_0x4a" link="_0x6b02d"/>
+               </resource_input>
+               <resource_input id="_0x64911" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x64a11" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x64b11" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0x64c11" name="Sluk" icon="_0x36" note="Sluk Lys Loft WC">
+                  <link_to_resource id="_0xe542c" name="Følg Link" icon="_0x4a" link="_0xe532d"/>
+               </resource_input>
+            </inputs>
+            <outputs id="_0x64d24" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
+               <resource_output id="_0x64e12" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
+                  <link_from_resource id="_0x6b52d" name="Følg Link" icon="_0x47" link="_0x6b62c"/>
+               </resource_output>
+               <resource_output id="_0x64f12" name="ON puls" icon="_0x39" note="Giver kort puls ved tænding.&#xD;&#xA;Anvendes til styring af andre blokke."/>
+               <resource_output id="_0x65012" name="OFF puls" icon="_0x39" note="Giver kort puls ved slukning.&#xD;&#xA;Anvendes til styring af andre blokke.&#xD;&#xA;"/>
+               <resource_scene id="_0x6514a" name="Scenarie Tænd" note="Fremkalder scenarie ved tænding."/>
+               <resource_scene id="_0x6524a" name="Scenarie Sluk" note="Fremkalder scenarie ved slukning."/>
+            </outputs>
+            <settings id="_0x65325" name="Indstillinger" icon="_0xd" note="Variablene i denne gruppering er indstillinger til funktionsblokken">
+               <resource_timer id="_0x65410" name="Timer" icon="_0x43" hour="0" minute="3" second="0" millisecond="0"/>
+            </settings>
+            <internalsettings id="_0x65529" name="Interne variable" icon="_0x13" note="Variablene i denne gruppe er private variable til funktionsblokken">
+               <resource_timer id="_0x65610" name="Puls timer" icon="_0x43" hour="0" minute="0" second="0" millisecond="250"/>
+            </internalsettings>
+            <programs id="_0x65726" name="Programmer" icon="_0x19" note="Gruppering af funktionblokkens programmer">
+               <program_simple id="_0x6581e" name="Kip" icon="_0x7">
+                  <events id="_0x65964" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0x65ac8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0x64811" method="_0xa"/>
+                  </events>
+                  <actions id="_0x65b66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <program_sub id="_0x65c1f" name="Under program" icon="_0x7">
+                        <conditions id="_0x65d65" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
+                           <condition id="_0x65ec9" name="%P = OFF" icon="_0x1a" note="Betingelse at %P er OFF" link1="_0x64e12" method="_0x14"/>
+                        </conditions>
+                        <actions id="_0x65f66" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
+                           <action id="_0x660ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64e12" method="_0xa"/>
+                           <action id="_0x661ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64f12" method="_0xa"/>
+                           <action id="_0x662ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6514a" method="_0xa"/>
+                           <action id="_0x663ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                        </actions>
+                        <actions id="_0x66466" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
+                           <action id="_0x665ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64e12" method="_0x14"/>
+                           <action id="_0x666ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x65012" method="_0xa"/>
+                           <action id="_0x667ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6524a" method="_0xa"/>
+                           <action id="_0x668ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                        </actions>
+                     </program_sub>
+                     <action id="_0x669ca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
+                     <action id="_0x66aca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0x66b1e" name="Kip med timer" icon="_0x7">
+                  <events id="_0x66c64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0x66dc8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0x64911" method="_0xa"/>
+                  </events>
+                  <actions id="_0x66e66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <program_sub id="_0x66f1f" name="Under program" icon="_0x7">
+                        <conditions id="_0x67065" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
+                           <condition id="_0x671c9" name="%P = OFF" icon="_0x1a" note="Betingelse at %P er OFF" link1="_0x64e12" method="_0x14"/>
+                        </conditions>
+                        <actions id="_0x67266" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
+                           <action id="_0x673ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64e12" method="_0xa"/>
+                           <action id="_0x674ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64f12" method="_0xa"/>
+                           <action id="_0x675ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6514a" method="_0xa"/>
+                           <action id="_0x676ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65410" method="_0xbe"/>
+                        </actions>
+                        <actions id="_0x67766" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
+                           <action id="_0x678ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64e12" method="_0x14"/>
+                           <action id="_0x679ca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
+                           <action id="_0x67aca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
+                           <action id="_0x67bca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x65012" method="_0xa"/>
+                           <action id="_0x67cca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6524a" method="_0xa"/>
+                        </actions>
+                     </program_sub>
+                     <action id="_0x67dca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0x67e1e" name="Tænd med timer" icon="_0x7">
+                  <events id="_0x67f64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0x680c8" name="%P bliver ændret" icon="_0xc" note="Start program når %P skifter værdi" link1="_0x64a11" method="_0x96"/>
+                  </events>
+                  <actions id="_0x68166" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <program_sub id="_0x6821f" name="Under program" icon="_0x7">
+                        <conditions id="_0x68365" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
+                           <condition id="_0x684c9" name="%P = ON" icon="_0x1a" note="Betingelse at %P er ON" link1="_0x64a11" method="_0xa"/>
+                        </conditions>
+                        <actions id="_0x68566" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
+                           <action id="_0x686ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64e12" method="_0xa"/>
+                           <action id="_0x687ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64f12" method="_0xa"/>
+                           <action id="_0x688ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6514a" method="_0xa"/>
+                           <action id="_0x689ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                           <action id="_0x68aca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
+                           <action id="_0x68bca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
+                        </actions>
+                        <actions id="_0x68c66" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
+                           <action id="_0x68dca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65410" method="_0xbe"/>
+                        </actions>
+                     </program_sub>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0x68e1e" name="Timer udløber" icon="_0x7">
+                  <events id="_0x68f64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0x690c8" name="%P -&gt; 0" icon="_0xc" note="Start program når %P skifter til 0" link1="_0x65410" method="_0xa"/>
+                  </events>
+                  <actions id="_0x69166" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0x692ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64e12" method="_0x14"/>
+                     <action id="_0x693ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x65012" method="_0xa"/>
+                     <action id="_0x694ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6524a" method="_0xa"/>
+                     <action id="_0x695ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0x6961e" name="Tænd" icon="_0x7">
+                  <events id="_0x69764" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0x698c8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0x64b11" method="_0xa"/>
+                  </events>
+                  <actions id="_0x69966" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0x69aca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64e12" method="_0xa"/>
+                     <action id="_0x69bca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64f12" method="_0xa"/>
+                     <action id="_0x69cca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6514a" method="_0xa"/>
+                     <action id="_0x69dca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                     <action id="_0x69eca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
+                     <action id="_0x69fca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0x6a01e" name="Sluk" icon="_0x7">
+                  <events id="_0x6a164" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0x6a2c8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0x64c11" method="_0xa"/>
+                  </events>
+                  <actions id="_0x6a366" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0x6a4ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64e12" method="_0x14"/>
+                     <action id="_0x6a5ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x65012" method="_0xa"/>
+                     <action id="_0x6a6ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6524a" method="_0xa"/>
+                     <action id="_0x6a7ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                     <action id="_0x6a8ca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
+                     <action id="_0x6a9ca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0x6aa1e" name="Puls Timer = 0" icon="_0x7">
+                  <events id="_0x6ab64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0x6acc8" name="%P -&gt; 0" icon="_0xc" note="Start program når %P skifter til 0" link1="_0x65610" method="_0xa"/>
+                  </events>
+                  <actions id="_0x6ad66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0x6aeca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x65012" method="_0x14"/>
+                     <action id="_0x6afca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64f12" method="_0x14"/>
+                  </actions>
+               </program_simple>
+            </programs>
+         </functionblock>
+         <product_dataline id="_0x6b253" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Loft WC" cabletype="5x1,5mm2 NOIKJ" cablenumber="10">
+            <dataline_output id="_0x6b35b" name="Udgang" backup="yes" address_dataline="_0xa">
+               <link_to_resource id="_0x6b62c" name="Følg Link" icon="_0x4a" link="_0x6b52d"/>
+            </dataline_output>
+            <scenes id="_0x6b449" name="Scenarier" scene_resource="_0x6b35b"/>
+         </product_dataline>
+      </group>
+      <group id="_0x4da32" name="Home-assistant Test knapper" icon="_0x15">
          <functionblock id="_0x54528" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
             <inputs id="_0x54623" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x54711" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
+               <resource_input id="_0x54711" name="Kip" icon="_0x36" note="Test knapper 2.11(ringeklokke) og 2.12(Brandalarm)">
                   <link_to_resource id="_0x5b32c" name="Følg Link" icon="_0x4a" link="_0x5b22d"/>
                </resource_input>
                <resource_input id="_0x54811" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
@@ -3045,177 +3193,314 @@
                </program_simple>
             </programs>
          </functionblock>
-         <product_dataline id="_0x5af53" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="2.12" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
+         <product_dataline id="_0x5af53" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="2.11 og 2.12" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
             <dataline_input id="_0x5b05a" name="Tryk (venstre)" address_dataline="_0x1a">
                <link_from_resource id="_0x5b22d" name="Følg Link" icon="_0x47" link="_0x5b32c"/>
             </dataline_input>
-            <dataline_input id="_0x5b15a" name="Tryk (højre)"/>
-         </product_dataline>
-      </group>
-      <group id="_0x64232" name="WC ved entre" icon="_0x15">
-         <product_dataline id="_0x64353" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
-            <dataline_input id="_0x6445a" name="Tryk (venstre)" address_dataline="_0xa">
-               <link_from_resource id="_0x6b02d" name="Følg Link" icon="_0x47" link="_0x6b12c"/>
+            <dataline_input id="_0x5b15a" name="Tryk (højre)" address_dataline="_0x19">
+               <link_from_resource id="_0xf262d" name="Følg Link" icon="_0x47" link="_0xf272c"/>
             </dataline_input>
-            <dataline_input id="_0x6455a" name="Tryk (højre)"/>
          </product_dataline>
-         <functionblock id="_0x64628" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
-            <inputs id="_0x64723" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
-               <resource_input id="_0x64811" name="Kip" icon="_0x36" note="Tænd/sluk.&#xD;&#xA;(Udfyldes af installatøren)">
-                  <link_to_resource id="_0x6b12c" name="Følg Link" icon="_0x4a" link="_0x6b02d"/>
+         <functionblock id="_0xebc28" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
+            <inputs id="_0xebd23" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
+               <resource_input id="_0xebe11" name="Kip" icon="_0x36" note="Test knapper 2.11(ringeklokke) og 2.12(Brandalarm)">
+                  <link_to_resource id="_0xf272c" name="Følg Link" icon="_0x4a" link="_0xf262d"/>
                </resource_input>
-               <resource_input id="_0x64911" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x64a11" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x64b11" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
-               <resource_input id="_0x64c11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)">
-                  <link_to_resource id="_0xe542c" name="Følg Link" icon="_0x4a" link="_0xe532d"/>
-               </resource_input>
+               <resource_input id="_0xebf11" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0xec011" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0xec111" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0xec211" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
             </inputs>
-            <outputs id="_0x64d24" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
-               <resource_output id="_0x64e12" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt.">
-                  <link_from_resource id="_0x6b52d" name="Følg Link" icon="_0x47" link="_0x6b62c"/>
-               </resource_output>
-               <resource_output id="_0x64f12" name="ON puls" icon="_0x39" note="Giver kort puls ved tænding.&#xD;&#xA;Anvendes til styring af andre blokke."/>
-               <resource_output id="_0x65012" name="OFF puls" icon="_0x39" note="Giver kort puls ved slukning.&#xD;&#xA;Anvendes til styring af andre blokke.&#xD;&#xA;"/>
-               <resource_scene id="_0x6514a" name="Scenarie Tænd" note="Fremkalder scenarie ved tænding."/>
-               <resource_scene id="_0x6524a" name="Scenarie Sluk" note="Fremkalder scenarie ved slukning."/>
+            <outputs id="_0xec324" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
+               <resource_output id="_0xec412" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt."/>
+               <resource_output id="_0xec512" name="ON puls" icon="_0x39" note="Giver kort puls ved tænding.&#xD;&#xA;Anvendes til styring af andre blokke."/>
+               <resource_output id="_0xec612" name="OFF puls" icon="_0x39" note="Giver kort puls ved slukning.&#xD;&#xA;Anvendes til styring af andre blokke.&#xD;&#xA;"/>
+               <resource_scene id="_0xec74a" name="Scenarie Tænd" note="Fremkalder scenarie ved tænding."/>
+               <resource_scene id="_0xec84a" name="Scenarie Sluk" note="Fremkalder scenarie ved slukning."/>
             </outputs>
-            <settings id="_0x65325" name="Indstillinger" icon="_0xd" note="Variablene i denne gruppering er indstillinger til funktionsblokken">
-               <resource_timer id="_0x65410" name="Timer" icon="_0x43" hour="0" minute="3" second="0" millisecond="0"/>
+            <settings id="_0xec925" name="Indstillinger" icon="_0xd" note="Variablene i denne gruppering er indstillinger til funktionsblokken">
+               <resource_timer id="_0xeca10" name="Timer" icon="_0x43" hour="0" minute="3" second="0" millisecond="0"/>
             </settings>
-            <internalsettings id="_0x65529" name="Interne variable" icon="_0x13" note="Variablene i denne gruppe er private variable til funktionsblokken">
-               <resource_timer id="_0x65610" name="Puls timer" icon="_0x43" hour="0" minute="0" second="0" millisecond="250"/>
+            <internalsettings id="_0xecb29" name="Interne variable" icon="_0x13" note="Variablene i denne gruppe er private variable til funktionsblokken">
+               <resource_timer id="_0xecc10" name="Puls timer" icon="_0x43" hour="0" minute="0" second="0" millisecond="250"/>
             </internalsettings>
-            <programs id="_0x65726" name="Programmer" icon="_0x19" note="Gruppering af funktionblokkens programmer">
-               <program_simple id="_0x6581e" name="Kip" icon="_0x7">
-                  <events id="_0x65964" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
-                     <event id="_0x65ac8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0x64811" method="_0xa"/>
+            <programs id="_0xecd26" name="Programmer" icon="_0x19" note="Gruppering af funktionblokkens programmer">
+               <program_simple id="_0xece1e" name="Kip" icon="_0x7">
+                  <events id="_0xecf64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xed0c8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0xebe11" method="_0xa"/>
                   </events>
-                  <actions id="_0x65b66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
-                     <program_sub id="_0x65c1f" name="Under program" icon="_0x7">
-                        <conditions id="_0x65d65" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
-                           <condition id="_0x65ec9" name="%P = OFF" icon="_0x1a" note="Betingelse at %P er OFF" link1="_0x64e12" method="_0x14"/>
+                  <actions id="_0xed166" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <program_sub id="_0xed21f" name="Under program" icon="_0x7">
+                        <conditions id="_0xed365" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
+                           <condition id="_0xed4c9" name="%P = OFF" icon="_0x1a" note="Betingelse at %P er OFF" link1="_0xec412" method="_0x14"/>
                         </conditions>
-                        <actions id="_0x65f66" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
-                           <action id="_0x660ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64e12" method="_0xa"/>
-                           <action id="_0x661ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64f12" method="_0xa"/>
-                           <action id="_0x662ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6514a" method="_0xa"/>
-                           <action id="_0x663ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                        <actions id="_0xed566" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
+                           <action id="_0xed6ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec412" method="_0xa"/>
+                           <action id="_0xed7ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec512" method="_0xa"/>
+                           <action id="_0xed8ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xec74a" method="_0xa"/>
+                           <action id="_0xed9ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xecc10" method="_0xbe"/>
                         </actions>
-                        <actions id="_0x66466" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
-                           <action id="_0x665ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64e12" method="_0x14"/>
-                           <action id="_0x666ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x65012" method="_0xa"/>
-                           <action id="_0x667ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6524a" method="_0xa"/>
-                           <action id="_0x668ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                        <actions id="_0xeda66" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
+                           <action id="_0xedbca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xec412" method="_0x14"/>
+                           <action id="_0xedcca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec612" method="_0xa"/>
+                           <action id="_0xeddca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xec84a" method="_0xa"/>
+                           <action id="_0xedeca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xecc10" method="_0xbe"/>
                         </actions>
                      </program_sub>
-                     <action id="_0x669ca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
-                     <action id="_0x66aca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
+                     <action id="_0xedfca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xeca10" method="_0xdc"/>
+                     <action id="_0xee0ca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xeca10" method="_0x19"/>
                   </actions>
                </program_simple>
-               <program_simple id="_0x66b1e" name="Kip med timer" icon="_0x7">
-                  <events id="_0x66c64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
-                     <event id="_0x66dc8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0x64911" method="_0xa"/>
+               <program_simple id="_0xee11e" name="Kip med timer" icon="_0x7">
+                  <events id="_0xee264" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xee3c8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0xebf11" method="_0xa"/>
                   </events>
-                  <actions id="_0x66e66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
-                     <program_sub id="_0x66f1f" name="Under program" icon="_0x7">
-                        <conditions id="_0x67065" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
-                           <condition id="_0x671c9" name="%P = OFF" icon="_0x1a" note="Betingelse at %P er OFF" link1="_0x64e12" method="_0x14"/>
+                  <actions id="_0xee466" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <program_sub id="_0xee51f" name="Under program" icon="_0x7">
+                        <conditions id="_0xee665" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
+                           <condition id="_0xee7c9" name="%P = OFF" icon="_0x1a" note="Betingelse at %P er OFF" link1="_0xec412" method="_0x14"/>
                         </conditions>
-                        <actions id="_0x67266" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
-                           <action id="_0x673ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64e12" method="_0xa"/>
-                           <action id="_0x674ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64f12" method="_0xa"/>
-                           <action id="_0x675ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6514a" method="_0xa"/>
-                           <action id="_0x676ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65410" method="_0xbe"/>
+                        <actions id="_0xee866" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
+                           <action id="_0xee9ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec412" method="_0xa"/>
+                           <action id="_0xeeaca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec512" method="_0xa"/>
+                           <action id="_0xeebca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xec74a" method="_0xa"/>
+                           <action id="_0xeecca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xeca10" method="_0xbe"/>
                         </actions>
-                        <actions id="_0x67766" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
-                           <action id="_0x678ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64e12" method="_0x14"/>
-                           <action id="_0x679ca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
-                           <action id="_0x67aca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
-                           <action id="_0x67bca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x65012" method="_0xa"/>
-                           <action id="_0x67cca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6524a" method="_0xa"/>
+                        <actions id="_0xeed66" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
+                           <action id="_0xeeeca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xec412" method="_0x14"/>
+                           <action id="_0xeefca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xeca10" method="_0xdc"/>
+                           <action id="_0xef0ca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xeca10" method="_0x19"/>
+                           <action id="_0xef1ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec612" method="_0xa"/>
+                           <action id="_0xef2ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xec84a" method="_0xa"/>
                         </actions>
                      </program_sub>
-                     <action id="_0x67dca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                     <action id="_0xef3ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xecc10" method="_0xbe"/>
                   </actions>
                </program_simple>
-               <program_simple id="_0x67e1e" name="Tænd med timer" icon="_0x7">
-                  <events id="_0x67f64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
-                     <event id="_0x680c8" name="%P bliver ændret" icon="_0xc" note="Start program når %P skifter værdi" link1="_0x64a11" method="_0x96"/>
+               <program_simple id="_0xef41e" name="Tænd med timer" icon="_0x7">
+                  <events id="_0xef564" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xef6c8" name="%P bliver ændret" icon="_0xc" note="Start program når %P skifter værdi" link1="_0xec011" method="_0x96"/>
                   </events>
-                  <actions id="_0x68166" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
-                     <program_sub id="_0x6821f" name="Under program" icon="_0x7">
-                        <conditions id="_0x68365" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
-                           <condition id="_0x684c9" name="%P = ON" icon="_0x1a" note="Betingelse at %P er ON" link1="_0x64a11" method="_0xa"/>
+                  <actions id="_0xef766" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <program_sub id="_0xef81f" name="Under program" icon="_0x7">
+                        <conditions id="_0xef965" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
+                           <condition id="_0xefac9" name="%P = ON" icon="_0x1a" note="Betingelse at %P er ON" link1="_0xec011" method="_0xa"/>
                         </conditions>
-                        <actions id="_0x68566" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
-                           <action id="_0x686ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64e12" method="_0xa"/>
-                           <action id="_0x687ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64f12" method="_0xa"/>
-                           <action id="_0x688ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6514a" method="_0xa"/>
-                           <action id="_0x689ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
-                           <action id="_0x68aca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
-                           <action id="_0x68bca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
+                        <actions id="_0xefb66" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
+                           <action id="_0xefcca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec412" method="_0xa"/>
+                           <action id="_0xefdca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec512" method="_0xa"/>
+                           <action id="_0xefeca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xec74a" method="_0xa"/>
+                           <action id="_0xeffca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xecc10" method="_0xbe"/>
+                           <action id="_0xf00ca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xeca10" method="_0xdc"/>
+                           <action id="_0xf01ca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xeca10" method="_0x19"/>
                         </actions>
-                        <actions id="_0x68c66" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
-                           <action id="_0x68dca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65410" method="_0xbe"/>
+                        <actions id="_0xf0266" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
+                           <action id="_0xf03ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xeca10" method="_0xbe"/>
                         </actions>
                      </program_sub>
                   </actions>
                </program_simple>
-               <program_simple id="_0x68e1e" name="Timer udløber" icon="_0x7">
-                  <events id="_0x68f64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
-                     <event id="_0x690c8" name="%P -&gt; 0" icon="_0xc" note="Start program når %P skifter til 0" link1="_0x65410" method="_0xa"/>
+               <program_simple id="_0xf041e" name="Timer udløber" icon="_0x7">
+                  <events id="_0xf0564" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf06c8" name="%P -&gt; 0" icon="_0xc" note="Start program når %P skifter til 0" link1="_0xeca10" method="_0xa"/>
                   </events>
-                  <actions id="_0x69166" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
-                     <action id="_0x692ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64e12" method="_0x14"/>
-                     <action id="_0x693ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x65012" method="_0xa"/>
-                     <action id="_0x694ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6524a" method="_0xa"/>
-                     <action id="_0x695ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
+                  <actions id="_0xf0766" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0xf08ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xec412" method="_0x14"/>
+                     <action id="_0xf09ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec612" method="_0xa"/>
+                     <action id="_0xf0aca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xec84a" method="_0xa"/>
+                     <action id="_0xf0bca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xecc10" method="_0xbe"/>
                   </actions>
                </program_simple>
-               <program_simple id="_0x6961e" name="Tænd" icon="_0x7">
-                  <events id="_0x69764" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
-                     <event id="_0x698c8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0x64b11" method="_0xa"/>
+               <program_simple id="_0xf0c1e" name="Tænd" icon="_0x7">
+                  <events id="_0xf0d64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf0ec8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0xec111" method="_0xa"/>
                   </events>
-                  <actions id="_0x69966" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
-                     <action id="_0x69aca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64e12" method="_0xa"/>
-                     <action id="_0x69bca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x64f12" method="_0xa"/>
-                     <action id="_0x69cca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6514a" method="_0xa"/>
-                     <action id="_0x69dca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
-                     <action id="_0x69eca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
-                     <action id="_0x69fca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
+                  <actions id="_0xf0f66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0xf10ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec412" method="_0xa"/>
+                     <action id="_0xf11ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec512" method="_0xa"/>
+                     <action id="_0xf12ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xec74a" method="_0xa"/>
+                     <action id="_0xf13ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xecc10" method="_0xbe"/>
+                     <action id="_0xf14ca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xeca10" method="_0xdc"/>
+                     <action id="_0xf15ca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xeca10" method="_0x19"/>
                   </actions>
                </program_simple>
-               <program_simple id="_0x6a01e" name="Sluk" icon="_0x7">
-                  <events id="_0x6a164" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
-                     <event id="_0x6a2c8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0x64c11" method="_0xa"/>
+               <program_simple id="_0xf161e" name="Sluk" icon="_0x7">
+                  <events id="_0xf1764" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf18c8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0xec211" method="_0xa"/>
                   </events>
-                  <actions id="_0x6a366" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
-                     <action id="_0x6a4ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64e12" method="_0x14"/>
-                     <action id="_0x6a5ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0x65012" method="_0xa"/>
-                     <action id="_0x6a6ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0x6524a" method="_0xa"/>
-                     <action id="_0x6a7ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0x65610" method="_0xbe"/>
-                     <action id="_0x6a8ca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0x65410" method="_0xdc"/>
-                     <action id="_0x6a9ca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0x65410" method="_0x19"/>
+                  <actions id="_0xf1966" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0xf1aca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xec412" method="_0x14"/>
+                     <action id="_0xf1bca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xec612" method="_0xa"/>
+                     <action id="_0xf1cca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xec84a" method="_0xa"/>
+                     <action id="_0xf1dca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xecc10" method="_0xbe"/>
+                     <action id="_0xf1eca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xeca10" method="_0xdc"/>
+                     <action id="_0xf1fca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xeca10" method="_0x19"/>
                   </actions>
                </program_simple>
-               <program_simple id="_0x6aa1e" name="Puls Timer = 0" icon="_0x7">
-                  <events id="_0x6ab64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
-                     <event id="_0x6acc8" name="%P -&gt; 0" icon="_0xc" note="Start program når %P skifter til 0" link1="_0x65610" method="_0xa"/>
+               <program_simple id="_0xf201e" name="Puls Timer = 0" icon="_0x7">
+                  <events id="_0xf2164" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf22c8" name="%P -&gt; 0" icon="_0xc" note="Start program når %P skifter til 0" link1="_0xecc10" method="_0xa"/>
                   </events>
-                  <actions id="_0x6ad66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
-                     <action id="_0x6aeca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x65012" method="_0x14"/>
-                     <action id="_0x6afca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0x64f12" method="_0x14"/>
+                  <actions id="_0xf2366" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0xf24ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xec612" method="_0x14"/>
+                     <action id="_0xf25ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xec512" method="_0x14"/>
                   </actions>
                </program_simple>
             </programs>
          </functionblock>
-         <product_dataline id="_0x6b253" product_identifier="_0x2202" name="Lampeudtag" locked="yes" icon="_0x86" position="Loft WC" cabletype="IHC LINK-10  NOPOVIC (5x2x0,6 mm)">
-            <dataline_output id="_0x6b35b" name="Udgang" backup="yes" address_dataline="_0xa">
-               <link_to_resource id="_0x6b62c" name="Følg Link" icon="_0x4a" link="_0x6b52d"/>
-            </dataline_output>
-            <scenes id="_0x6b449" name="Scenarier" scene_resource="_0x6b35b"/>
+         <product_dataline id="_0xf3553" product_identifier="_0x2101" name="LK FUGA Tryk 2 tast" locked="yes" enduser_report="yes" icon="_0x85" note="Tryk med 2 SL" position="1.07">
+            <dataline_input id="_0xf365a" name="Tryk (venstre)" address_dataline="_0x7">
+               <link_from_resource id="_0xfa22d" name="Følg Link" icon="_0x47" link="_0xfa32c"/>
+            </dataline_input>
+            <dataline_input id="_0xf375a" name="Tryk (højre)"/>
          </product_dataline>
+         <functionblock id="_0xf3828" name="1.1.01.e. Kip tænd sluk" master_schneider_electric="yes" master_type="1.1.01" master_version="e" master_name="Kip tænd sluk" master_programmer="Schneider Electric&#xD;&#xA;Copyrights © 2009" master_date_year="2017" master_date_month="5" master_date_day="17" locked="yes" icon="_0xe" note="1.1.01.e. Kip tænd sluk&#xD;&#xA;&#xD;&#xA;Anvendelse:&#xD;&#xA;&#xD;&#xA;Kip, tænd og sluk af udgang, eller som trappeautomat &#xD;&#xA;&#xD;&#xA;For at se den fulde beskrivelse marker denne linje og tryk &quot;F1&quot;.&#xD;&#xA;Bemærk: Dette virker kun hvis &quot;Blokken&quot; er rød-markeret.">
+            <inputs id="_0xf3923" name="Input" icon="_0x4" note="Variablene i denne gruppering er input til funktionsblokken">
+               <resource_input id="_0xf3a11" name="Kip" icon="_0x36" note="Test knap for tyverialarm aktiv/ikke aktiv">
+                  <link_to_resource id="_0xfa32c" name="Følg Link" icon="_0x4a" link="_0xfa22d"/>
+               </resource_input>
+               <resource_input id="_0xf3b11" name="Kip med timer" icon="_0x36" note="Tænd/sluk med timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0xf3c11" name="Tænd med timer" icon="_0x36" note="Tænd med timer. Ved genaktivering genstarter timer.&#xD;&#xA;Hvis der ikke slukkes manuelt vil timer slukke udgang.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0xf3d11" name="Tænd " icon="_0x36" note="Tænd.&#xD;&#xA;(Udfyldes af installatøren)"/>
+               <resource_input id="_0xf3e11" name="Sluk" icon="_0x36" note="Sluk.&#xD;&#xA;(Udfyldes af installatøren)"/>
+            </inputs>
+            <outputs id="_0xf3f24" name="Output" icon="_0x14" note="Variablene i denne gruppering er output fra funktionsblokken">
+               <resource_output id="_0xf4012" name="Udgang" icon="_0x39" note="Forbindes til f.eks lampe eller stikkontakt."/>
+               <resource_output id="_0xf4112" name="ON puls" icon="_0x39" note="Giver kort puls ved tænding.&#xD;&#xA;Anvendes til styring af andre blokke."/>
+               <resource_output id="_0xf4212" name="OFF puls" icon="_0x39" note="Giver kort puls ved slukning.&#xD;&#xA;Anvendes til styring af andre blokke.&#xD;&#xA;"/>
+               <resource_scene id="_0xf434a" name="Scenarie Tænd" note="Fremkalder scenarie ved tænding."/>
+               <resource_scene id="_0xf444a" name="Scenarie Sluk" note="Fremkalder scenarie ved slukning."/>
+            </outputs>
+            <settings id="_0xf4525" name="Indstillinger" icon="_0xd" note="Variablene i denne gruppering er indstillinger til funktionsblokken">
+               <resource_timer id="_0xf4610" name="Timer" icon="_0x43" hour="0" minute="3" second="0" millisecond="0"/>
+            </settings>
+            <internalsettings id="_0xf4729" name="Interne variable" icon="_0x13" note="Variablene i denne gruppe er private variable til funktionsblokken">
+               <resource_timer id="_0xf4810" name="Puls timer" icon="_0x43" hour="0" minute="0" second="0" millisecond="250"/>
+            </internalsettings>
+            <programs id="_0xf4926" name="Programmer" icon="_0x19" note="Gruppering af funktionblokkens programmer">
+               <program_simple id="_0xf4a1e" name="Kip" icon="_0x7">
+                  <events id="_0xf4b64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf4cc8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0xf3a11" method="_0xa"/>
+                  </events>
+                  <actions id="_0xf4d66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <program_sub id="_0xf4e1f" name="Under program" icon="_0x7">
+                        <conditions id="_0xf4f65" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
+                           <condition id="_0xf50c9" name="%P = OFF" icon="_0x1a" note="Betingelse at %P er OFF" link1="_0xf4012" method="_0x14"/>
+                        </conditions>
+                        <actions id="_0xf5166" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
+                           <action id="_0xf52ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4012" method="_0xa"/>
+                           <action id="_0xf53ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4112" method="_0xa"/>
+                           <action id="_0xf54ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xf434a" method="_0xa"/>
+                           <action id="_0xf55ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xf4810" method="_0xbe"/>
+                        </actions>
+                        <actions id="_0xf5666" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
+                           <action id="_0xf57ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xf4012" method="_0x14"/>
+                           <action id="_0xf58ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4212" method="_0xa"/>
+                           <action id="_0xf59ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xf444a" method="_0xa"/>
+                           <action id="_0xf5aca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xf4810" method="_0xbe"/>
+                        </actions>
+                     </program_sub>
+                     <action id="_0xf5bca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xf4610" method="_0xdc"/>
+                     <action id="_0xf5cca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xf4610" method="_0x19"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0xf5d1e" name="Kip med timer" icon="_0x7">
+                  <events id="_0xf5e64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf5fc8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0xf3b11" method="_0xa"/>
+                  </events>
+                  <actions id="_0xf6066" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <program_sub id="_0xf611f" name="Under program" icon="_0x7">
+                        <conditions id="_0xf6265" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
+                           <condition id="_0xf63c9" name="%P = OFF" icon="_0x1a" note="Betingelse at %P er OFF" link1="_0xf4012" method="_0x14"/>
+                        </conditions>
+                        <actions id="_0xf6466" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
+                           <action id="_0xf65ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4012" method="_0xa"/>
+                           <action id="_0xf66ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4112" method="_0xa"/>
+                           <action id="_0xf67ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xf434a" method="_0xa"/>
+                           <action id="_0xf68ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xf4610" method="_0xbe"/>
+                        </actions>
+                        <actions id="_0xf6966" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
+                           <action id="_0xf6aca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xf4012" method="_0x14"/>
+                           <action id="_0xf6bca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xf4610" method="_0xdc"/>
+                           <action id="_0xf6cca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xf4610" method="_0x19"/>
+                           <action id="_0xf6dca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4212" method="_0xa"/>
+                           <action id="_0xf6eca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xf444a" method="_0xa"/>
+                        </actions>
+                     </program_sub>
+                     <action id="_0xf6fca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xf4810" method="_0xbe"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0xf701e" name="Tænd med timer" icon="_0x7">
+                  <events id="_0xf7164" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf72c8" name="%P bliver ændret" icon="_0xc" note="Start program når %P skifter værdi" link1="_0xf3c11" method="_0x96"/>
+                  </events>
+                  <actions id="_0xf7366" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <program_sub id="_0xf741f" name="Under program" icon="_0x7">
+                        <conditions id="_0xf7565" name="Betingelser" icon="_0x16" note="Gruppering af betingelser til logisk test">
+                           <condition id="_0xf76c9" name="%P = ON" icon="_0x1a" note="Betingelse at %P er ON" link1="_0xf3c11" method="_0xa"/>
+                        </conditions>
+                        <actions id="_0xf7766" name="Kommandoer ved betingelser sande" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er sande" type="_0x1">
+                           <action id="_0xf78ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4012" method="_0xa"/>
+                           <action id="_0xf79ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4112" method="_0xa"/>
+                           <action id="_0xf7aca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xf434a" method="_0xa"/>
+                           <action id="_0xf7bca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xf4810" method="_0xbe"/>
+                           <action id="_0xf7cca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xf4610" method="_0xdc"/>
+                           <action id="_0xf7dca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xf4610" method="_0x19"/>
+                        </actions>
+                        <actions id="_0xf7e66" name="Kommandoer ved betingelser falske" icon="_0x8" note="Gruppering af kommandoer som udføres når betingelser er falske">
+                           <action id="_0xf7fca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xf4610" method="_0xbe"/>
+                        </actions>
+                     </program_sub>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0xf801e" name="Timer udløber" icon="_0x7">
+                  <events id="_0xf8164" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf82c8" name="%P -&gt; 0" icon="_0xc" note="Start program når %P skifter til 0" link1="_0xf4610" method="_0xa"/>
+                  </events>
+                  <actions id="_0xf8366" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0xf84ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xf4012" method="_0x14"/>
+                     <action id="_0xf85ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4212" method="_0xa"/>
+                     <action id="_0xf86ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xf444a" method="_0xa"/>
+                     <action id="_0xf87ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xf4810" method="_0xbe"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0xf881e" name="Tænd" icon="_0x7">
+                  <events id="_0xf8964" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf8ac8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0xf3d11" method="_0xa"/>
+                  </events>
+                  <actions id="_0xf8b66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0xf8cca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4012" method="_0xa"/>
+                     <action id="_0xf8dca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4112" method="_0xa"/>
+                     <action id="_0xf8eca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xf434a" method="_0xa"/>
+                     <action id="_0xf8fca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xf4810" method="_0xbe"/>
+                     <action id="_0xf90ca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xf4610" method="_0xdc"/>
+                     <action id="_0xf91ca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xf4610" method="_0x19"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0xf921e" name="Sluk" icon="_0x7">
+                  <events id="_0xf9364" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf94c8" name="%P -&gt; ON" icon="_0xc" note="Start program når %P skifter til ON" link1="_0xf3e11" method="_0xa"/>
+                  </events>
+                  <actions id="_0xf9566" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0xf96ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xf4012" method="_0x14"/>
+                     <action id="_0xf97ca" name="%P = ON" icon="_0x9" note="Sætter %P til ON" link1="_0xf4212" method="_0xa"/>
+                     <action id="_0xf98ca" name="Fremkald %P" icon="_0x9" note="Aktiver scenarie" link1="_0xf444a" method="_0xa"/>
+                     <action id="_0xf99ca" name="Aktiver nedtælling på %P med initial værdi" icon="_0x9" note="Aktiver nedtælling på %P med initial værdi" link1="_0xf4810" method="_0xbe"/>
+                     <action id="_0xf9aca" name="Stands tælling på %P" icon="_0x9" note="Standser evt. igangværende optælling eller nedtælling på %P" link1="_0xf4610" method="_0xdc"/>
+                     <action id="_0xf9bca" name="%P = Initialværdi" icon="_0x9" note="Sætter %P til dens initialværdi" link1="_0xf4610" method="_0x19"/>
+                  </actions>
+               </program_simple>
+               <program_simple id="_0xf9c1e" name="Puls Timer = 0" icon="_0x7">
+                  <events id="_0xf9d64" name="Hændelser" icon="_0xb" note="Hændelser som starter program">
+                     <event id="_0xf9ec8" name="%P -&gt; 0" icon="_0xc" note="Start program når %P skifter til 0" link1="_0xf4810" method="_0xa"/>
+                  </events>
+                  <actions id="_0xf9f66" name="Kommandoer" icon="_0x8" note="Gruppering af kommandoer som udføres når hændelse er indtruffet" type="_0x2">
+                     <action id="_0xfa0ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xf4212" method="_0x14"/>
+                     <action id="_0xfa1ca" name="%P = OFF" icon="_0x9" note="Sætter %P til OFF" link1="_0xf4112" method="_0x14"/>
+                  </actions>
+               </program_simple>
+            </programs>
+         </functionblock>
       </group>
    </groups>
    <documentation_modules id="_0x4134">
